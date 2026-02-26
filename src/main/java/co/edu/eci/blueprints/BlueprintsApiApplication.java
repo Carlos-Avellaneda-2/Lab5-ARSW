@@ -1,3 +1,4 @@
+
 package co.edu.eci.blueprints;
 
 import org.springframework.boot.SpringApplication;
