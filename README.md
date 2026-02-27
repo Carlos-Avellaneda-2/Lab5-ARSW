@@ -1,6 +1,6 @@
 # Lab5-ARSW - BluePrints API con Seguridad JWT y PostgreSQL
 
-Este README documenta las actividades solicitadas del laboratorio con base en la implementación actual del proyecto.
+Carlos Andrés Avellaneda Franco
 
 ## Requisitos
 
@@ -10,19 +10,14 @@ Este README documenta las actividades solicitadas del laboratorio con base en la
 
 ## Ejecución rápida
 
-1. Levantar PostgreSQL en Docker:
 
-```bash
-docker run --name blueprints-postgres -e POSTGRES_PASSWORD=blueprints123 -e POSTGRES_DB=blueprintsdb -p 5432:5432 -d postgres:latest
-```
-
-2. Ejecutar la API:
+1. Ejecutar la API:
 
 ```bash
 mvn spring-boot:run
 ```
 
-3. Verificar que la app responde en `http://localhost:8080`.
+2. Verificar que la app responde en `http://localhost:8080`.
 
 ## Configuración de base de datos usada
 
